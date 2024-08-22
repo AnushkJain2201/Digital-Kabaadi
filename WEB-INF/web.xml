@@ -24,34 +24,10 @@
 
   <display-name>Welcome to TDF</display-name>
   <description>
-     Technical Discussion Forum
+     Digital Kabadi
   </description>
 
   <welcome-file-list>
     <welcome-file>index.do</welcome-file>
   </welcome-file-list>
-
-  <context-param>
-    <param-name>recaptcha_url</param-name>
-    <param-value>https://www.google.com/recaptcha/api/siteverify</param-value>
-  </context-param>
-
-  <context-param>
-    <param-name>secret_key</param-name>
-    <param-value>6LeDNhUpAAAAAA9X5grkPlDRhAurNgwmy_1S-UNp</param-value>
-  </context-param>
-
-  <context-param>
-    <param-name>from_email</param-name>
-    <param-value>sanskargurnani@outlook.com</param-value>
-  </context-param>
-
-  <context-param>
-    <param-name>from_email_password</param-name>
-    <param-value>9893777225@Ab</param-value>
-  </context-param>
-
-  <listener>
-    <listener-class>listeners.AppListenerImpl</listener-class>
-  </listener>
 </web-app>
