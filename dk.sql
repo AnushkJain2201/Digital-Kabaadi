@@ -1,3 +1,6 @@
+CREATE database dkdb
+use dkdb
+
 CREATE TABLE Users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
